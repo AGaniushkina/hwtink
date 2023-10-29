@@ -15,5 +15,23 @@ public final class Main {
         LOGGER.info("Hello world!");
 
         Scanner in = new Scanner(System.in);
+
+        System.out.println((new Task1(in.next()).secondsCount)); //формат ввода: 13:56
+        System.out.println((new Task2(in.nextInt()).digitsCount)); //формат ввода:
+        System.out.println((new Task3(new Integer[]{1, 2, 3, 4}, new Integer[]{0, 6}).nestable));
+        System.out.println((new Task4(in.next()).fixedString)); //формат ввода: hTsii  s aimex dpus rtni.g
+        System.out.println((new Task5(in.nextInt()).isPalindrom)); //формат ввода: 11211230
+        System.out.println((new Task6(in.nextInt()).count)); //формат ввода: 6621
+        //System.out.println((new Task7(in.nextInt(), in.nextInt()).rotetedLeft));
+        //System.out.println((new Task7(in.nextInt(), in.nextInt()).rotetedRight));
+        System.out.println((new Task8(new Integer[][]{
+            {1, 0, 1, 0, 1, 0, 1, 0},
+            {0, 1, 0, 1, 0, 1, 0, 1},
+            {0, 0, 0, 0, 1, 0, 1, 0},
+            {0, 0, 1, 0, 0, 1, 0, 1},
+            {1, 0, 0, 0, 1, 0, 1, 0},
+            {0, 0, 0, 0, 0, 1, 0, 1},
+            {1, 0, 0, 0, 1, 0, 1, 0},
+            {0, 0, 0, 1, 0, 1, 0, 1}}).isSafePositions));
     }
 }
