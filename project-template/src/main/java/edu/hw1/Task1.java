@@ -3,7 +3,7 @@ package edu.hw1;
 public class Task1 {
     public int secondsCount;
 
-    Task1(String str){
+    public Task1(String str){
         secondsCount = minutesToSeconds(str);
     }
 
