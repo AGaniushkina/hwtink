@@ -10,7 +10,7 @@ public class Task8Test {
     @DisplayName("Проверка, что ни один конь не может захватить другого ")
     void knightBoardCaptureTest1() {
         // given
-        Integer[][] mas = new Integer[][]{
+        int[][] mas = new int[][] {
             {0, 0, 0, 1, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0},
             {0, 1, 0, 0, 0, 1, 0, 0},
@@ -32,7 +32,7 @@ public class Task8Test {
     @DisplayName("Проверка, что ни один конь не может захватить другого ")
     void knightBoardCaptureTest2() {
         // given
-        Integer[][] mas = new Integer[][]{
+        int[][] mas = new int[][] {
             {1, 0, 1, 0, 1, 0, 1, 0},
             {0, 1, 0, 1, 0, 1, 0, 1},
             {0, 0, 0, 0, 1, 0, 1, 0},
@@ -54,7 +54,7 @@ public class Task8Test {
     @DisplayName("Проверка, что ни один конь не может захватить другого ")
     void knightBoardCaptureTest3() {
         // given
-        Integer[][] mas = new Integer[][]{
+        int[][] mas = new int[][] {
             {0, 0, 0, 0, 1, 0, 0, 0},
             {0, 0, 0, 0, 0, 1, 0, 0},
             {0, 0, 0, 1, 0, 0, 0, 0},

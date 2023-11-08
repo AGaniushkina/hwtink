@@ -4,12 +4,12 @@ public class Task7 {
     int rotetedLeft;
     int rotetedRight;
 
-    Task7(int x, int shift){
+    Task7(int x, int shift) {
         rotetedLeft = rotateLeft(x, shift);
         rotetedRight = rotateRight(x, shift);
     }
 
-    public static int rotateLeft(int n, int shift){
+    public static int rotateLeft(int n, int shift) {
 
         int log2 = (int) (Math.log(n) / Math.log(2));
         shift = shift % log2;
@@ -21,7 +21,7 @@ public class Task7 {
         return part1 | part2;
     }
 
-    public static int rotateRight(int n, int shift){
+    public static int rotateRight(int n, int shift) {
 
         int log2 = (int) (Math.log(n) / Math.log(2));
         shift = shift % log2;
