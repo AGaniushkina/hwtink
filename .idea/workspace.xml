@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw3">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Task1Test.java" afterDir="false" />
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +115,7 @@
     <MESSAGE value="Add hw1 with tests" />
     <MESSAGE value="hangman game" />
     <MESSAGE value="hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
+    <MESSAGE value="hw4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4" />
   </component>
 </project>
