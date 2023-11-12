@@ -40,7 +40,7 @@ public class Task3Test {
     @DisplayName("Подсчет количества слов")
     void freqDictTest3() {
         // given
-        List wordsStr = Arrays.asList(1, 1, 2, 2);
+        List<Integer> wordsStr = Arrays.asList(1, 1, 2, 2);
 
         // when
         Map<?, Integer> dict = Task3.freqDict(wordsStr);

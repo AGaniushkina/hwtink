@@ -12,24 +12,27 @@ public class Task1Test {
         String str = "Hello world!";
 
         // when
-        String atbashStr = new Task1(str).atbash();
+        String atbashStr = Task1.atbash(str);
 
         // then
         assertThat(atbashStr)
             .isEqualTo("Svool dliow!");
     }
+
     @Test
     @DisplayName("Шифр Атбаш")
     void atbashTest2() {
         // given
-        String str = "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. ― Martin Fowler";
+        String str =
+            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. ― Martin Fowler";
 
         // when
-        String atbashStr = new Task1(str).atbash();
+        String atbashStr = Task1.atbash(str);
 
         // then
         assertThat(atbashStr)
-            .isEqualTo("Zmb ullo xzm dirgv xlwv gszg z xlnkfgvi xzm fmwvihgzmw. Tllw kiltiznnvih dirgv xlwv gszg sfnzmh xzm fmwvihgzmw. ― Nzigrm Uldovi");
+            .isEqualTo(
+                "Zmb ullo xzm dirgv xlwv gszg z xlnkfgvi xzm fmwvihgzmw. Tllw kiltiznnvih dirgv xlwv gszg sfnzmh xzm fmwvihgzmw. ― Nzigrm Uldovi");
     }
 
 }
