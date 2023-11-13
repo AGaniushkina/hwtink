@@ -4,26 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw4">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/StockClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/StockMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task6Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task7Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task8Test.java" afterDir="false" />
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw5">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Task8Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw3/Task3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project1" />
+        <entry key="$PROJECT_DIR$" value="hw3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,10 +69,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.hw5" />
       <recent name="edu.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.edu.hw3 in essentials">
+  <component name="RunManager">
     <configuration name="edu.hw1 in essentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
@@ -106,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.edu.hw3 in essentials" />
         <item itemvalue="JUnit.edu.hw1 in essentials" />
+        <item itemvalue="JUnit.edu.hw3 in essentials" />
         <item itemvalue="JUnit.edu.hw1 in essentials" />
       </list>
     </recent_temporary>
@@ -135,12 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698007069462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw3 with tests">
+      <created>1699828124848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699828124848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add hw1 with tests" />
     <MESSAGE value="hangman game" />
-    <option name="LAST_COMMIT_MESSAGE" value="hangman game" />
+    <MESSAGE value="hw3 with tests" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
 </project>
