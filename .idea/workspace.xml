@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw4">
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw5">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/AnimalClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Task1Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +22,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,23 +64,93 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="edu.hw1 in essentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalClassTest.errorsInRecordsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw1.*" />
+          <option name="PATTERN" value="edu.hw4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw1" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="edu.hw4" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
+      <option name="METHOD_NAME" value="errorsInRecordsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalClassTest.heaviestFishInListsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw4" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
+      <option name="METHOD_NAME" value="heaviestFishInListsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalClassTest.isSpidersBitesMoreThanDogsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw4" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
+      <option name="METHOD_NAME" value="isSpidersBitesMoreThanDogsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalClassTest.moreReadableResultTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw4" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
+      <option name="METHOD_NAME" value="moreReadableResultTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalClassTest.sortedListByTypeSexNameTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw4" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
+      <option name="METHOD_NAME" value="sortedListByTypeSexNameTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.edu.hw1 in essentials" />
+        <item itemvalue="JUnit.AnimalClassTest.moreReadableResultTest1" />
+        <item itemvalue="JUnit.AnimalClassTest.errorsInRecordsTest1" />
+        <item itemvalue="JUnit.AnimalClassTest.heaviestFishInListsTest1" />
+        <item itemvalue="JUnit.AnimalClassTest.isSpidersBitesMoreThanDogsTest1" />
+        <item itemvalue="JUnit.AnimalClassTest.sortedListByTypeSexNameTest1" />
       </list>
     </recent_temporary>
   </component>
