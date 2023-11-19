@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw5">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/AnimalClassTest.java" afterDir="false" />
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw6">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task2/Tinkoff_Bank_Biggest_Secret.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task3/AbstractFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task3/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/Task3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/big_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/json_file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/small_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Task1Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +27,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw5" />
+        <entry key="$PROJECT_DIR$" value="hw4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +66,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\annag\TinkoffCourse\hwtink\project-template\src\test\java\edu\hw6\Task3test" />
+      <recent name="C:\Users\annag\TinkoffCourse\hwtink\project-template\src\main\java\edu\hw6\Task2" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="edu.hw3" />
     </key>
@@ -184,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698611951129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw4">
+      <created>1700057343464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700057343465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +210,7 @@
     <MESSAGE value="hangman game" />
     <MESSAGE value="hw3" />
     <MESSAGE value="hw4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4" />
+    <MESSAGE value="hw6" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6" />
   </component>
 </project>

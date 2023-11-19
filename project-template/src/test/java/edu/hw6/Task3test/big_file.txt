@@ -1,0 +1,1 @@
+File with more than 100 bytes information about file test for third task in 6 homework.
