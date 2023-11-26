@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw7">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/hw7/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/hw7/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/hw7/Task4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/task3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/task3/PersonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/task3/Task3Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/hw7/Task3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +68,7 @@
       <recent name="edu.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task2Test.factorialTest2">
-    <configuration name="Task1Test.incrementTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw7" />
-      <option name="MAIN_CLASS_NAME" value="hw7.Task1Test" />
-      <option name="METHOD_NAME" value="incrementTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task3Test.calculatePISingleThreadTest2">
     <configuration name="Task2Test.factorialTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
@@ -117,6 +101,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3Test.calculatePISingleThreadTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw7" />
+      <option name="MAIN_CLASS_NAME" value="hw7.Task3Test" />
+      <option name="METHOD_NAME" value="calculatePISingleThreadTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Test.calculatePISingleThreadTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw7" />
+      <option name="MAIN_CLASS_NAME" value="hw7.Task3Test" />
+      <option name="METHOD_NAME" value="calculatePISingleThreadTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task4Test.calculatePIMultipleThreadTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
@@ -133,29 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4Test.calculatePISingleThreadTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw7" />
-      <option name="MAIN_CLASS_NAME" value="hw7.Task4Test" />
-      <option name="METHOD_NAME" value="calculatePISingleThreadTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3Test.calculatePISingleThreadTest2" />
+        <item itemvalue="JUnit.Task3Test.calculatePISingleThreadTest1" />
         <item itemvalue="JUnit.Task2Test.factorialTest2" />
         <item itemvalue="JUnit.Task2Test.factorialTest1" />
         <item itemvalue="JUnit.Task4Test.calculatePIMultipleThreadTest1" />
-        <item itemvalue="JUnit.Task4Test.calculatePISingleThreadTest1" />
-        <item itemvalue="JUnit.Task1Test.incrementTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700426849759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hw7">
+      <created>1701031688800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701031688800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
