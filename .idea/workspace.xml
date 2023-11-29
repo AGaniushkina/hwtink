@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw6">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task2/Tinkoff_Bank_Biggest_Secret.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task3/AbstractFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task3/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/big_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/json_file.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task3test/small_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task4Test.java" afterDir="false" />
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw7">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task1/DiskMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task5/HackerNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task6Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +67,7 @@
       <recent name="edu.hw3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Task5Test">
     <configuration name="AnimalClassTest.errorsInRecordsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
@@ -86,38 +79,6 @@
       <option name="PACKAGE_NAME" value="edu.hw4" />
       <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
       <option name="METHOD_NAME" value="errorsInRecordsTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalClassTest.heaviestFishInListsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.hw4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.hw4" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
-      <option name="METHOD_NAME" value="heaviestFishInListsTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalClassTest.isSpidersBitesMoreThanDogsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.hw4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.hw4" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
-      <option name="METHOD_NAME" value="isSpidersBitesMoreThanDogsTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,29 +100,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalClassTest.sortedListByTypeSexNameTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="PATTERN" value="edu.hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw4" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
-      <option name="METHOD_NAME" value="sortedListByTypeSexNameTest1" />
+      <option name="PACKAGE_NAME" value="edu.hw6" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw6.Task5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.newsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw6" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw6.Task5Test" />
+      <option name="METHOD_NAME" value="newsTest2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw6" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw6.Task6Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task5Test" />
+        <item itemvalue="JUnit.Task5Test.newsTest2" />
+        <item itemvalue="JUnit.Task6Test" />
         <item itemvalue="JUnit.AnimalClassTest.moreReadableResultTest1" />
         <item itemvalue="JUnit.AnimalClassTest.errorsInRecordsTest1" />
-        <item itemvalue="JUnit.AnimalClassTest.heaviestFishInListsTest1" />
-        <item itemvalue="JUnit.AnimalClassTest.isSpidersBitesMoreThanDogsTest1" />
-        <item itemvalue="JUnit.AnimalClassTest.sortedListByTypeSexNameTest1" />
       </list>
     </recent_temporary>
   </component>
