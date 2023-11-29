@@ -1,15 +1,15 @@
 package edu.hw7;
 
-import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 public class Task4 {
 
-    private static final AtomicLong circleCount = new AtomicLong(0);
+    private static final AtomicLong totalCount = new AtomicLong(0);
 
     public double calculatePISingleThread(long simulation) {
         if (simulation < 1) {
@@ -35,36 +35,40 @@ public class Task4 {
         return 4 * (circleCount1 / (double) totalCount1);
     }
 
-    public double calculatePIMultipleThread(long simulation, int numThreats) {
+    public static double calculatePIMultipleThread(int simulation, int numThreats) throws Exception {
+        //int totalCount;
         if (simulation < 1) {
             throw new IllegalArgumentException("Simulation count must be more then 0");
         }
         if (numThreats < 1) {
             throw new IllegalArgumentException("Threats number must be more then 0");
         }
-
-        List<Thread> threads = IntStream.range(0, numThreats)
-            .mapToObj(i -> new Thread(() -> circleCount.addAndGet(LongStream.range(
-                    i * simulation / numThreats,
-                    (i + 1) * simulation / numThreats
-                )
-                .filter(l -> {
-                    double dx = ThreadLocalRandom.current().nextDouble();
-                    double dy = ThreadLocalRandom.current().nextDouble();
-                    double distance = Math.sqrt(dx * dx + dy * dy);
-
-                    return distance <= 1;
-                }).count())))
-            .toList();
-
-        threads.forEach(Thread::start);
-        threads.forEach(thread -> {
-            try {
-                thread.join();
-            } catch (InterruptedException ignored) {
+        try (
+            ExecutorService executorService = Executors.newFixedThreadPool(numThreats)) {
+            Future<Integer>[] future = new Future[numThreats];
+            for (int i = 0; i < numThreats; i++) {
+                future[i] = executorService.submit(() -> simulatePoints(simulation / numThreats));
             }
-        });
 
-        return 4 * (circleCount.get() / (double) simulation);
+            for (int i = 0; i < numThreats; i++) {
+                totalCount.addAndGet(future[i].get());
+            }
+            executorService.shutdown();
+        }
+
+        return 4.0 * totalCount.get() / simulation;
+    }
+
+    private static int simulatePoints(int iterations) {
+        int circleCount = 0;
+        for (int i = 0; i < iterations; i++) {
+            double x = ThreadLocalRandom.current().nextDouble(-1, 1);
+            double y = ThreadLocalRandom.current().nextDouble(-1, 1);
+
+            if (x * x + y * y <= 1) {
+                circleCount++;
+            }
+        }
+        return circleCount;
     }
 }

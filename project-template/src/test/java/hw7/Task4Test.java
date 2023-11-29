@@ -21,12 +21,9 @@ public class Task4Test {
 
     @Test
     @DisplayName("Число пи")
-    void calculatePIMultipleThreadTest1() {
-        // given
-        Task4 pi = new Task4();
-
+    void calculatePIMultipleThreadTest1() throws Exception {
         // when
-        double res = pi.calculatePIMultipleThread(10000000, 2);
+        double res = Task4.calculatePIMultipleThread(10000000, 2);
 
         // then
         assertEquals(Math.PI, res, 0.001);
