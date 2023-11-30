@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw7">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task1/DiskMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task5/HackerNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task6Test.java" afterDir="false" />
+    <list default="true" id="dfc6f773-a31f-4ab8-8b4f-2b7c2241f53c" name="Changes" comment="hw6">
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw6/Task1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task1/DiskMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw6/Task1/DiskMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,34 +64,33 @@
       <recent name="edu.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task5Test">
-    <configuration name="AnimalClassTest.errorsInRecordsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1Test">
+    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="PATTERN" value="edu.hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw4" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
-      <option name="METHOD_NAME" value="errorsInRecordsTest1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="edu.hw6" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw6.Task1Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalClassTest.moreReadableResultTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1Test.saveWithoutExistingFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw4.*" />
+          <option name="PATTERN" value="edu.hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw4" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw4.AnimalClassTest" />
-      <option name="METHOD_NAME" value="moreReadableResultTest1" />
+      <option name="PACKAGE_NAME" value="edu.hw6" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw6.Task1Test" />
+      <option name="METHOD_NAME" value="saveWithoutExistingFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1Test" />
+        <item itemvalue="JUnit.Task1Test.saveWithoutExistingFile" />
         <item itemvalue="JUnit.Task5Test" />
         <item itemvalue="JUnit.Task5Test.newsTest2" />
         <item itemvalue="JUnit.Task6Test" />
-        <item itemvalue="JUnit.AnimalClassTest.moreReadableResultTest1" />
-        <item itemvalue="JUnit.AnimalClassTest.errorsInRecordsTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700057343465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw6">
+      <created>1701280033214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701280033214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
